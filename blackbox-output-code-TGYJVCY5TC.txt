@@ -1,0 +1,31 @@
+flipkart-clone/
+├── client/  # React front-end
+│   ├── public/
+│   │   ├── index.html
+│   │   └── favicon.ico
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── Header.js  # Sticky search bar and nav
+│   │   │   ├── HeroSlider.js  # Deals slider
+│   │   │   ├── ProductCard.js  # Product card component
+│   │   │   ├── ProductGrid.js  # Grid with filters
+│   │   │   ├── Cart.js  # Cart modal/page
+│   │   │   ├── AuthModal.js  # Login/sign-up
+│   │   │   └── SidebarFilters.js  # Search filters
+│   │   ├── pages/
+│   │   │   ├── Home.js
+│   │   │   ├── ProductDetails.js
+│   │   │   └── Checkout.js
+│   │   ├── App.js  # Main app with routing
+│   │   ├── index.js
+│   │   └── styles.css  # Tailwind imports
+├── server/  # Node.js back-end
+│   ├── models/
+│   │   └── Product.js  # MongoDB schema
+│   ├── routes/
+│   │   ├── products.js  # API for products
+│   │   └── auth.js  # Auth routes
+│   ├── server.js  # Express server
+│   └── package.json
+├── package.json  # Root package.json for monorepo
+└── README.md
